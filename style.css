@@ -42,3 +42,21 @@ body{
     height: 500px;
 
 } 
+/* ------------header end----------- */
+.wave{
+  width: 10vw;
+}
+
+/* ------------------services section start----------------- */
+#services{
+    padding: 80px 0;
+
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+
+/* ------------------services section end----------------- */
