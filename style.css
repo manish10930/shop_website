@@ -8,13 +8,19 @@
 
 /* whatsapp */
 
+.whatsapp_img{
+    width: 60px;
+    height: 60px;
+}
 .whatsapp_main{
     position: fixed;
     z-index: 20;
     bottom: 40px;
+    right: 20px;
     text-align: right;
     padding-left: 100px;
 }
+
 /* whatsapp */
 body{
     font-family: sans-serif;
@@ -203,11 +209,21 @@ a:hover{
 
 
 /* -----Media q -------*/
-/* @media only screen and (max-width:600px)
+@media only screen and (max-width:600px)
 {
-    .map{
-        text-align: center;
-
-
+/*     whatsapp */
+    .whatsapp_img{
+      width: 50px;
+      height: 50px;
+      
     }
-} */
+    .whatsapp_main{
+        position: fixed;
+        z-index: 20;
+        bottom: 40px;
+        text-align: right;
+        
+    }
+    
+/*     whatsapp */
+}
