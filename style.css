@@ -132,6 +132,10 @@ a:hover{
 
 /* -------------footer start-------------------- */
 
+.about_me:hover{
+    color: #080404;
+    transition: 0.5;
+}
 
 
 .contact_us p{
