@@ -5,6 +5,17 @@
     box-sizing: border-box;
 
 }
+
+/* whatsapp */
+
+.whatsapp_main{
+    position: fixed;
+    z-index: 20;
+    bottom: 40px;
+    text-align: right;
+    padding-left: 100px;
+}
+/* whatsapp */
 body{
     font-family: sans-serif;
     overflow-x: hidden; /* Hide horizontal scrollbar */
